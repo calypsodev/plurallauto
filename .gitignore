@@ -1,0 +1,19 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Debug captures may contain private activity content
+/debug/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

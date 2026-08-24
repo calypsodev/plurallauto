@@ -1,4 +1,4 @@
-# plurallauto
+# AutoPlurall 👁️🤖
 
 Um script que automatiza o login na plataforma **Plurall** e utiliza um modelo de visão (via API da NVIDIA) para responder automaticamente às tarefas/atividades da plataforma.
 
@@ -18,7 +18,7 @@ O bot faz login automático no Plurall usando o **Playwright**, navega até as t
 git clone https://github.com/calypsodev/plurallauto.git
 cd plurallauto
 pip install -r requirements.txt
-playwright install
+playwright install chromium
 ```
 
 ## Configuração
@@ -44,8 +44,6 @@ cp .env.example .env
 | `PLURALL_EMAIL` | Seu e-mail de login no Plurall | — |
 | `PLURALL_SENHA` | Sua senha de login no Plurall | — |
 
-> ⚠️ Nunca faça commit do arquivo `.env` com suas credenciais reais — ele já está listado no `.gitignore`.
-
 ## Uso
 
 ```bash
@@ -58,6 +56,6 @@ Os logs de execução são exibidos no terminal com cores para facilitar o acomp
 
 Este projeto automatiza a resolução de atividades acadêmicas. O uso é de responsabilidade do usuário — verifique se está de acordo com as regras da sua instituição de ensino antes de utilizar.
 
-## Licença
+## Desenvolvimento.
 
-Defina a licença do projeto aqui (ex.: MIT).
+Desenvolvimento por CalypsoDEV.
